@@ -3,6 +3,9 @@
 The collector runs once a day under its own unprivileged user, `hrjobs`, separate from the other collectors on
 the box.
 
+**State on 2026-11-11:** publishing is on. The box holds a deploy key for this repo and the USAJOBS key, and
+its first published run pushed that day's list. Its commits are signed `hrjobs (ubuntu-4gb-bbc-1)`.
+
 | Thing | Where |
 |---|---|
 | Clone | `/home/hrjobs/hr-jobs` |
@@ -62,7 +65,16 @@ point the clone at SSH and trust GitHub's host key:
 ssh hetz 'sudo -u hrjobs git -C /home/hrjobs/hr-jobs remote set-url origin git@github.com:nikbearbrown/hr-jobs.git && sudo -u hrjobs sh -c "ssh-keyscan -t ed25519 github.com > /home/hrjobs/.ssh/known_hosts"'
 ```
 
+Give the box a name to commit under:
+
+```bash
+ssh hetz 'sudo -u hrjobs git -C /home/hrjobs/hr-jobs config user.name "hrjobs (ubuntu-4gb-bbc-1)" && sudo -u hrjobs git -C /home/hrjobs/hr-jobs config user.email hrjobs@bbc.box'
+```
+
 The next run copies what the box collected into the repo and pushes it.
+
+To turn publishing off again, delete the key at github.com/nikbearbrown/hr-jobs/settings/keys. The box then
+fails to push; to go back to collect-only mode, also remove `/home/hrjobs/.ssh/id_ed25519` on the box.
 
 ## Installing from scratch
 
