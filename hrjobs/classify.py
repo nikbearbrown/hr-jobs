@@ -172,7 +172,8 @@ TRAINING_TITLE = re.compile(
     r"customer|product|staff|clinical|operations)? ?trainer)(?![a-z0-9])")
 NOT_HR_TRAINING = _rx(["model", "models", "ml", "machine learning", "llm", "ai", "data", "inference", "compute",
                        "research", "engineer", "scientist", "gpu", "personal trainer", "athletic trainer",
-                       "dog trainer", "fitness"])
+                       "dog trainer", "fitness", "driver", "drivers", "driving", "flight", "pilot", "pilots",
+                       "safety driver"])
 
 
 # Engineering, product and sales jobs at companies that sell HR software carry HR words in their titles

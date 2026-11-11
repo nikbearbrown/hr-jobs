@@ -11,7 +11,7 @@ its first published run pushed that day's list. Its commits are signed `hrjobs (
 | Clone | `/home/hrjobs/hr-jobs` |
 | Schedule | `hr-jobs-daily.timer`, 05:30 UTC each day (an hour after the ai-jobs run) |
 | Without a deploy key | Collect-only mode: results go to `/home/hrjobs/collected` and stay on the box |
-| With a deploy key | Publishes `data/current/jobs.csv`, `data/summary/DATE.json`, `reports/DATE.md`, `reports/latest.md` to GitHub |
+| With a deploy key | Publishes `data/current/jobs.csv`, `data/summary/DATE.json`, `reports/DATE.md`, `reports/latest.md` and the statistics in `README.md` to GitHub |
 | Deploy key | `/home/hrjobs/.ssh/id_ed25519`, registered on this repo only, with write access. The repo owner adds it. |
 | USAJOBS key | `/home/hrjobs/.usajobs/key` and `/home/hrjobs/.usajobs/email`, mode 600. Without them the federal source is skipped and the report says "no key". |
 | Adzuna key | `/home/hrjobs/.adzuna/app_id` and `/home/hrjobs/.adzuna/app_key`. Same rule. |

@@ -1,7 +1,7 @@
 import unittest
 
 from hrjobs import classify as C
-from hrjobs import collect, places, sources
+from hrjobs import collect, places, readme, sources
 
 
 class Scope(unittest.TestCase):
@@ -12,7 +12,8 @@ class Scope(unittest.TestCase):
 
     def test_lookalikes_are_not_hr(self):
         for t in ("ML Training Engineer", "Customer Specialist", "Customer Onboarding Specialist",
-                  "Information Systems Security Officer", "Data Classification Engineer", "Software Engineer"):
+                  "Information Systems Security Officer", "Data Classification Engineer", "Software Engineer",
+                  "Travel Driver Trainer", "Driver Trainer/Auditor 2"):
             self.assertIsNone(C.scope(t), t)
 
     def test_department_and_source(self):
@@ -150,6 +151,51 @@ class CarryForward(unittest.TestCase):
         stats = {"sources_down": ["usajobs"], "boards_failed": ["greenhouse/downco"]}
         kept = collect.carry_forward(rows, previous, stats, "2026-11-11")
         self.assertEqual((kept, sorted(r["key"] for r in rows)), (2, ["f1", "g2", "n1"]))
+
+
+class Readme(unittest.TestCase):
+    ROWS = [dict.fromkeys(collect.COLUMNS, "") | r for r in (
+        {"sub_discipline": "payroll", "title": "Payroll Specialist", "employer": "A", "sector": "corporate",
+         "state": "NY", "role_word": "specialist", "soc_code": "43-3051", "posted": "2026-11-10",
+         "classified_by": "title", "source": "lever", "salary": "USD 60,000", "remote": "remote"},
+        {"sub_discipline": "payroll", "title": "PAYROLL SPECIALIST", "employer": "B", "sector": "federal",
+         "state": "DC", "role_word": "specialist", "level": "GS-9 to GS-11", "soc_code": "43-3051",
+         "posted": "2026-09-01", "classified_by": "title", "source": "usajobs", "flags": "filed_outside_hr"},
+        {"sub_discipline": "unclassified", "title": "HR Analyst | III", "employer": "B", "sector": "federal",
+         "role_word": "analyst", "level": "III", "posted": "2026-11-11", "classified_by": "none",
+         "source": "usajobs"})]
+    SUMMARY = {"date": "2026-11-11", "postings_read": 500, "new_today": 1, "dropped": {"not_hr": 497}}
+
+    def test_only_the_marked_block_changes(self):
+        text = "top\n<!-- stats:start -->\nold\n<!-- stats:end -->\nbottom\n"
+        self.assertEqual(readme.replace_block(text, "stats", "new\n"),
+                         "top\n<!-- stats:start -->\nnew\n<!-- stats:end -->\nbottom\n")
+        self.assertEqual(readme.replace_block(text, "titles", "new"), text)   # no such block: untouched
+
+    def test_statistics_count_the_rows(self):
+        text = readme.stats(self.ROWS, self.SUMMARY)
+        self.assertIn("| Open HR listings | 3 |", text)
+        self.assertIn("| Payroll (`payroll`) | 1 | 1 | 2 | 67% |", text)
+        self.assertIn("Payroll Specialist (2)", text)              # same title in two spellings is one title
+        self.assertIn("HR Analyst / III (1)", text)                # a bar in a title cannot break the table
+        self.assertIn("| Posted in the last 7 days | 2 (67%) |", text)
+        self.assertIn("GS-9 (1)", text)
+        self.assertIn("| a numeral (II, III, 2) | 1 | 33% |", text)
+        self.assertIn("3 open HR listings", readme.headline(self.ROWS, self.SUMMARY))
+
+    def test_classifier_table_follows_the_code(self):
+        text = readme.classifier()
+        rows = [l for l in text.splitlines() if l.startswith("| ") and "`" in l.split("|")[2]]
+        self.assertEqual([l.split("`")[1] for l in rows], C.ORDER)   # same order as the checks
+        for name, terms in C.SUBDISCIPLINES:
+            self.assertIn(terms[0], text)
+
+    def test_title_guide_is_the_document_one_heading_lower(self):
+        doc = "# T\n\n## How HR titles are built\n\n### Role words\n\nx\n\n## Getting the complete list as data\n\ny\n"
+        text = readme.titles(doc)
+        self.assertIn("### How HR titles are built", text)
+        self.assertIn("#### Role words", text)
+        self.assertNotIn("Getting the complete list", text)
 
 
 class Readers(unittest.TestCase):

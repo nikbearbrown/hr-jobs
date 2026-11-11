@@ -46,7 +46,7 @@ elif [ "$rc" -ne 0 ]; then
 fi
 
 if [ "$PUBLISH" = "1" ]; then
-  git add -- data/current/jobs.csv "data/summary/$DATE.json" "reports/$DATE.md" reports/latest.md
+  git add -- data/current/jobs.csv "data/summary/$DATE.json" "reports/$DATE.md" reports/latest.md README.md
   if git diff --cached --quiet; then echo "nothing new to commit"; else
     git commit -q -m "Daily HR job collection $DATE (run on the Hetzner box)"
     git pull --rebase --quiet

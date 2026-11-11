@@ -7,6 +7,7 @@ Writes:
     data/current/jobs.csv        every open listing, one row each
     data/summary/DATE.json       the day's counts
     reports/DATE.md, reports/latest.md   counts table plus the listings first seen that day
+    README.md                    its statistics, classification and title sections (see readme.py)
 
 Exit code 2 means more than half the company boards failed to load; nothing is written in that case.
 """
@@ -21,7 +22,7 @@ import sys
 from pathlib import Path
 
 from . import classify as C
-from . import places, sources
+from . import places, readme, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 COLUMNS = ["key", "sub_discipline", "classified_by", "title", "employer", "sector", "city", "state", "remote",
@@ -283,6 +284,8 @@ def main(argv=None):
     text = report(rows, summary, new_keys)
     (a.out / "reports" / f"{a.date}.md").write_text(text)
     (a.out / "reports" / "latest.md").write_text(text)
+    if readme.update(a.out):   # only where there is a README: the repo itself, not a trial folder
+        print("README.md: statistics rewritten")
     print(f"wrote {len(rows)} listings ({len(new_keys)} new); by sub-discipline: {summary['by_sub_discipline']}")
     return 0
 
