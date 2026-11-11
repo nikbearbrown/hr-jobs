@@ -1,0 +1,28 @@
+[Unit]
+Description=hr-jobs: read HR job listings, classify them, publish the list and the day's counts
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=hrjobs
+Group=hrjobs
+WorkingDirectory=/home/hrjobs/hr-jobs
+Environment=HOME=/home/hrjobs
+ExecStart=/home/hrjobs/hr-jobs/ops/run-daily.sh
+TimeoutStartSec=2h
+# Share the box politely (2 cores, 3.8 GB)
+Nice=10
+IOSchedulingClass=idle
+CPUQuota=100%
+MemoryMax=1500M
+# Sandbox: this unit needs the network and /home/hrjobs, nothing else
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ReadWritePaths=/home/hrjobs
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=yes
+LockPersonality=yes
