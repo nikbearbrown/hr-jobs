@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "total": 1365,
+ "total": 1360,
  "new_today": 0,
  "baseline_run": false,
  "by_sub_discipline": {
@@ -11,7 +11,7 @@
   "compensation": 97,
   "benefits_leave": 25,
   "talent_acquisition": 592,
-  "learning_od": 103,
+  "learning_od": 98,
   "hris_analytics": 85,
   "payroll": 41,
   "hr_operations": 94,
@@ -20,18 +20,18 @@
   "unclassified": 59
  },
  "by_sector": {
-  "corporate": 1172,
+  "corporate": 1167,
   "federal": 192,
   "healthcare": 1
  },
  "by_source": {
-  "greenhouse": 817,
+  "greenhouse": 812,
   "ashby": 291,
   "usajobs": 192,
   "lever": 65
  },
  "classified_by": {
-  "title": 1236,
+  "title": 1231,
   "description": 70,
   "none": 59
  },
@@ -63,7 +63,7 @@
    "healthcare": 1
   },
   "learning_od": {
-   "corporate": 100,
+   "corporate": 95,
    "federal": 3
   },
   "hris_analytics": {
@@ -90,9 +90,9 @@
    "corporate": 30
   }
  },
- "postings_read": 51174,
+ "postings_read": 51176,
  "dropped": {
-  "not_hr": 49138,
+  "not_hr": 49145,
   "outside_us": 499,
   "hr_department_other_work": 172,
   "duplicate": 0
