@@ -12,8 +12,8 @@ sub-discipline, and adds notes about its title. It does not rank anything.
   the sources, the rules) and [docs/hr-job-titles.md](docs/hr-job-titles.md) (what HR titles mean).
 
 <!-- headline:start -->
-**On 2026-11-11 the list holds 1,360 open HR listings** from 335 employers in 47 states and territories (1,167 corporate, 192 federal, 1 healthcare). The daily run read 51,176 postings to find them.
-The largest group is talent acquisition (592 listings, 44%). The classifier placed 1,301 listings and left 59 unclassified for a person to look at.
+**On 2026-11-12 the list holds 1,359 open HR listings** from 336 employers in 47 states and territories (1,161 corporate, 197 federal, 1 healthcare). The daily run read 51,140 postings to find them.
+The largest group is talent acquisition (587 listings, 43%). The classifier placed 1,298 listings and left 61 unclassified for a person to look at.
 <!-- headline:end -->
 
 **What it does not cover yet.** Only two kinds of source are being read: company job boards (mostly technology
@@ -39,42 +39,42 @@ A server reads the sources every day at 05:30 UTC, rewrites the list, and rewrit
 ## What is in the list
 
 <!-- stats:start -->
-Counted from [data/current/jobs.csv](data/current/jobs.csv) on **2026-11-11**. The daily run rewrites this section, so it always describes the list as it is now.
+Counted from [data/current/jobs.csv](data/current/jobs.csv) on **2026-11-12**. The daily run rewrites this section, so it always describes the list as it is now.
 
 ### At a glance
 
 | Measure | Count |
 |---|---:|
-| Open HR listings | 1,360 |
-| Employers | 335 |
+| Open HR listings | 1,359 |
+| Employers | 336 |
 | States and territories with a listing | 47 |
-| Postings read to find them | 51,176 |
-| New since the previous run | 0 |
-| Posted in the last 7 days | 291 (21%) |
-| Posted in the last 30 days | 676 (50%) |
-| Listings that state a salary | 399 (29%) |
-| Listings marked remote | 166 (12%) |
-| Listings marked hybrid | 173 (13%) |
+| Postings read to find them | 51,140 |
+| New since the previous run | 11 |
+| Posted in the last 7 days | 250 (18%) |
+| Posted in the last 30 days | 659 (48%) |
+| Listings that state a salary | 401 (30%) |
+| Listings marked remote | 161 (12%) |
+| Listings marked hybrid | 174 (13%) |
 
 ### Listings by sub-discipline and sector
 
 | Sub-discipline | Corporate | Federal | Healthcare | Total | Share |
 |---|---:|---:|---:|---:|---:|
-| Military HR (`military_hr`) |  | 78 |  | 78 | 6% |
-| Labor relations (`labor_relations`) |  | 10 |  | 10 | 1% |
+| Military HR (`military_hr`) |  | 79 |  | 79 | 6% |
+| Labor relations (`labor_relations`) |  | 11 |  | 11 | 1% |
 | Employee relations (`employee_relations`) | 20 | 4 |  | 24 | 2% |
 | EEO, compliance and inclusion (`eeo`) | 1 |  |  | 1 | under 1% |
-| Compensation and classification (`compensation`) | 81 | 16 |  | 97 | 7% |
+| Compensation and classification (`compensation`) | 81 | 17 |  | 98 | 7% |
 | Benefits and leave (`benefits_leave`) | 21 | 4 |  | 25 | 2% |
-| Talent acquisition (`talent_acquisition`) | 565 | 26 | 1 | 592 | 44% |
+| Talent acquisition (`talent_acquisition`) | 560 | 26 | 1 | 587 | 43% |
 | Learning and organizational development (`learning_od`) | 95 | 3 |  | 98 | 7% |
 | HR systems and people analytics (`hris_analytics`) | 82 | 3 |  | 85 | 6% |
 | Payroll (`payroll`) | 40 | 1 |  | 41 | 3% |
-| HR operations and shared services (`hr_operations`) | 86 | 8 |  | 94 | 7% |
-| HR strategy and leadership (`hr_strategy`) | 28 | 10 |  | 38 | 3% |
-| Generalist and business partner (`generalist`) | 118 |  |  | 118 | 9% |
-| Unclassified (`unclassified`) | 30 | 29 |  | 59 | 4% |
-| **Total** | **1,167** | **192** | **1** | **1,360** | **100%** |
+| HR operations and shared services (`hr_operations`) | 86 | 7 |  | 93 | 7% |
+| HR strategy and leadership (`hr_strategy`) | 28 | 11 |  | 39 | 3% |
+| Generalist and business partner (`generalist`) | 117 |  |  | 117 | 9% |
+| Unclassified (`unclassified`) | 30 | 31 |  | 61 | 4% |
+| **Total** | **1,161** | **197** | **1** | **1,359** | **100%** |
 
 Sector is read from the source for federal jobs. For every other listing it is guessed from the employer's name and defaults to corporate.
 
@@ -84,20 +84,20 @@ The five most common titles in each group, as the employers wrote them, with the
 
 | Sub-discipline | Listings | Different titles | Most common titles |
 |---|---:|---:|---|
-| Military HR | 78 | 38 | HUMAN RESOURCES SPECIALIST (MILITARY) (12); HR SPEC (MILITARY) (7); HUMAN RESOURCES ASSISTANT (MILITARY) (TITLE 32) (7); HUMAN RESOURCES SPECIALIST (MILITARY) (TITLE 32) (6); HUMAN RESOURCES ASSISTANT (MILITARY) (5) |
-| Labor relations | 10 | 9 | HUMAN RESOURCES SPECIALIST (LABOR RELATIONS/EMPLOYEE RELATIONS) (2); Employee & Labor Relations Specialist NF4 (1); HR Specialist (Employee and Labor Relations) (1); HR Specialist (Employee Relations/Labor Relations) (1); Human Resources Specialist (ER-LR) (1) |
+| Military HR | 79 | 37 | HUMAN RESOURCES SPECIALIST (MILITARY) (12); HUMAN RESOURCES ASSISTANT (MILITARY) (TITLE 32) (7); HR SPEC (MILITARY) (6); HUMAN RESOURCES ASSISTANT (MILITARY) (6); HUMAN RESOURCES SPECIALIST (MILITARY) (TITLE 32) (6) |
+| Labor relations | 11 | 10 | HUMAN RESOURCES SPECIALIST (LABOR RELATIONS/EMPLOYEE RELATIONS) (2); Employee & Labor Relations Specialist NF4 (1); HR Specialist (Employee and Labor Relations) (1); HR Specialist (Employee Relations/Labor Relations) (1); Human Resources Specialist (ER-LR) (1) |
 | Employee relations | 24 | 17 | Human Resources Coordinator (Employee Relations) (3); Employee Relations Business Partner (2); Employee Relations Partner (2); HR Business Partner (Employee Relations) (2); HUMAN RESOURCES SPECIALIST (EMPLOYEE RELATIONS/PLACEMENT) (2) |
 | EEO, compliance and inclusion | 1 | 1 | People Operations Specialist, HR Compliance (1) |
-| Compensation and classification | 97 | 75 | HUMAN RESOURCES SPECIALIST (CLASSIFICATION) (5); Director, Compensation (3); Sales Compensation Analyst (3); Senior Compensation Analyst (3); Total Rewards Lead (3) |
+| Compensation and classification | 98 | 75 | HUMAN RESOURCES SPECIALIST (CLASSIFICATION) (6); Director, Compensation (3); Sales Compensation Analyst (3); Senior Compensation Analyst (3); Total Rewards Lead (3) |
 | Benefits and leave | 25 | 19 | Benefits Analyst (3); Human Resources Specialist (Employee Benefits) (3); Benefits Coordinator (2); Benefits Specialist (2); Benefits Manager (1) |
-| Talent acquisition | 592 | 379 | Senior Technical Recruiter (18); Technical Recruiter (18); Recruiting Coordinator (12); GTM Recruiter (10); Recruiter (8) |
+| Talent acquisition | 587 | 374 | Senior Technical Recruiter (18); Technical Recruiter (17); Recruiting Coordinator (12); GTM Recruiter (10); Recruiter (8) |
 | Learning and organizational development | 98 | 89 | Associate Instructional Designer (5); Human Resources Specialist (Human Resource Development) (2); Principal Organizational Development Strategist (2); Senior Training Specialist (2); Talent Development Operations & Program Specialist (2) |
 | HR systems and people analytics | 85 | 68 | People Research Scientist (4); Senior HRIS Analyst (4); People Systems Analyst (3); Senior People Science Analyst (12 month FTC) (3); Full Stack Software Engineer - People Systems (2) |
 | Payroll | 41 | 32 | Payroll Specialist (5); Payroll Manager (4); Payroll Analyst (3); Director, Payroll (1); Global Head of Payroll (1) |
-| HR operations and shared services | 94 | 64 | Human Resources Assistant (7); People Operations Generalist (4); People Operations Specialist (4); Global Mobility Program Manager, Tax (3); People Operations Associate (3) |
-| HR strategy and leadership | 38 | 27 | Human Resources Officer (5); Director, M&A People Strategy & Integration (3); Head of People (3); Director, People Success (2); People Strategy Manager (2) |
-| Generalist and business partner | 118 | 71 | Senior People Business Partner (11); People Partner (9); HR Business Partner (6); Senior People Partner (6); HR Generalist (5) |
-| Unclassified | 59 | 41 | Human Resources Specialist (12); Senior Manager, M&A People Integration (3); Staff People Program Manager, Production (3); Supervisory Human Resources Specialist (3); Senior Manager, Talent Operations (2) |
+| HR operations and shared services | 93 | 64 | Human Resources Assistant (6); People Operations Generalist (4); People Operations Specialist (4); Global Mobility Program Manager, Tax (3); People Operations Associate (3) |
+| HR strategy and leadership | 39 | 27 | Human Resources Officer (6); Director, M&A People Strategy & Integration (3); Head of People (3); Director, People Success (2); People Strategy Manager (2) |
+| Generalist and business partner | 117 | 71 | Senior People Business Partner (11); People Partner (9); Senior People Partner (6); HR Business Partner (5); HR Generalist (5) |
+| Unclassified | 61 | 41 | Human Resources Specialist (14); Senior Manager, M&A People Integration (3); Staff People Program Manager, Production (3); Supervisory Human Resources Specialist (3); Senior Manager, Talent Operations (2) |
 
 ### Role words
 
@@ -108,15 +108,15 @@ The role word is the part of the title that says what kind of job it is, most se
 | chief | 2 | under 1% |
 | vp | 5 | under 1% |
 | director | 85 | 6% |
-| manager | 194 | 14% |
-| business partner | 109 | 8% |
-| consultant | 75 | 6% |
+| manager | 195 | 14% |
+| business partner | 108 | 8% |
+| consultant | 74 | 5% |
 | generalist | 18 | 1% |
 | analyst | 77 | 6% |
-| specialist | 552 | 41% |
+| specialist | 551 | 41% |
 | coordinator | 76 | 6% |
-| assistant | 41 | 3% |
-| none in the title | 126 | 9% |
+| assistant | 44 | 3% |
+| none in the title | 124 | 9% |
 
 ### Levels
 
@@ -124,14 +124,14 @@ The role word is the part of the title that says what kind of job it is, most se
 |---|---:|---:|
 | intern | 11 | 1% |
 | associate | 21 | 2% |
-| senior | 332 | 24% |
+| senior | 328 | 24% |
 | lead | 74 | 5% |
 | principal | 22 | 2% |
-| a numeral (II, III, 2) | 2 | under 1% |
-| a government grade | 190 | 14% |
-| no level in the title | 706 | 52% |
+| a numeral (II, III, 2) | 1 | under 1% |
+| a government grade | 195 | 14% |
+| no level in the title | 705 | 52% |
 
-Federal listings by starting grade: GS-1 (1), GS-4 (2), GS-5 (8), GS-6 (3), GS-7 (30), GS-8 (1), GS-9 (46), GS-11 (12), GS-12 (22), GS-13 (14), GS-14 (14), GS-15 (10), other pay plans (27).
+Federal listings by starting grade: GS-1 (1), GS-4 (2), GS-5 (9), GS-6 (6), GS-7 (29), GS-8 (1), GS-9 (44), GS-11 (14), GS-12 (23), GS-13 (15), GS-14 (14), GS-15 (10), other pay plans (27).
 
 ### Where the jobs are
 
@@ -140,18 +140,18 @@ Federal listings by starting grade: GS-1 (1), GS-4 (2), GS-5 (8), GS-6 (3), GS-7
 | California (CA) | 435 | 32% |
 | New York (NY) | 166 | 12% |
 | Texas (TX) | 80 | 6% |
-| Washington (WA) | 76 | 6% |
-| Massachusetts (MA) | 65 | 5% |
-| District of Columbia (DC) | 50 | 4% |
+| Washington (WA) | 78 | 6% |
+| Massachusetts (MA) | 64 | 5% |
+| District of Columbia (DC) | 51 | 4% |
 | Virginia (VA) | 45 | 3% |
-| Illinois (IL) | 34 | 2% |
+| Illinois (IL) | 34 | 3% |
 | Arizona (AZ) | 27 | 2% |
 | Colorado (CO) | 19 | 1% |
 | Florida (FL) | 19 | 1% |
 | Georgia (GA) | 15 | 1% |
-| No state given (remote or location not stated) | 173 | 13% |
+| No state given (remote or location not stated) | 168 | 12% |
 
-Work arrangement, as the employer marked it: remote 166, hybrid 173, onsite 141, not stated 880.
+Work arrangement, as the employer marked it: remote 161, hybrid 174, onsite 138, not stated 886.
 
 ### Employers with the most listings
 
@@ -160,15 +160,15 @@ Work arrangement, as the employer marked it: remote 166, hybrid 173, onsite 141,
 | Anduril | 110 |
 | SpaceX | 79 |
 | Brex | 30 |
-| Army National Guard Units | 29 |
+| Army National Guard Units | 28 |
 | Carvana | 25 |
-| Air National Guard Units | 24 |
+| Air National Guard Units | 22 |
 | Legora | 22 |
 | Datadog | 22 |
 | Harvey | 18 |
 | Crusoe | 18 |
-| Shield AI | 17 |
 | Stripe | 16 |
+| Shield AI | 14 |
 | OpenAI | 14 |
 | CoreWeave | 14 |
 | Rocket Lab | 14 |
@@ -179,17 +179,17 @@ The code names the occupation family, so listings can be joined to other O\*NET 
 
 | Code | Occupation | Listings |
 |---|---|---:|
-| 13-1071 | Human Resources Specialists | 751 |
-| 11-3121 | Human Resources Managers | 150 |
+| 13-1071 | Human Resources Specialists | 741 |
+| 11-3121 | Human Resources Managers | 152 |
 | 15-1211 | Computer Systems Analysts | 85 |
-| 13-1141 | Compensation, Benefits, and Job Analysis Specialists | 79 |
+| 13-1141 | Compensation, Benefits, and Job Analysis Specialists | 80 |
 | 13-1151 | Training and Development Specialists | 70 |
-| none | Unclassified listings carry no code | 59 |
-| 43-4161 | Human Resources Assistants, Except Payroll and Timekeeping | 45 |
+| none | Unclassified listings carry no code | 61 |
+| 43-4161 | Human Resources Assistants, Except Payroll and Timekeeping | 48 |
 | 11-3111 | Compensation and Benefits Managers | 43 |
 | 43-3051 | Payroll and Timekeeping Clerks | 41 |
 | 11-3131 | Training and Development Managers | 24 |
-| 13-1075 | Labor Relations Specialists | 8 |
+| 13-1075 | Labor Relations Specialists | 9 |
 | 13-1111 | Management Analysts | 4 |
 | 13-1041.03 | Equal Opportunity Representatives and Officers | 1 |
 
@@ -197,9 +197,9 @@ The code names the occupation family, so listings can be joined to other O\*NET 
 
 | Flag | Listings | What to check |
 |---|---:|---|
-| `filed_outside_hr` | 259 | The employer filed the job under another department (Finance, IT, Operations) |
-| `business_partner_range` | 118 | "Business Partner" ranges from a senior strategic advisor to a relabeled generalist |
-| `talent_ambiguous` | 55 | "Talent" can mean recruiting or performance and development |
+| `filed_outside_hr` | 255 | The employer filed the job under another department (Finance, IT, Operations) |
+| `business_partner_range` | 117 | "Business Partner" ranges from a senior strategic advisor to a relabeled generalist |
+| `talent_ambiguous` | 54 | "Talent" can mean recruiting or performance and development |
 | `hr_by_department_only` | 9 | The title names no HR function; the department and ad text do |
 | `head_of_people_startup` | 5 | At an early startup, "Head of People" can be a fairly junior first hire |
 | `hr_manager_scope_unknown` | 3 | "HR Manager" could be the only HR person or the manager of a team |
@@ -208,20 +208,20 @@ The code names the occupation family, so listings can be joined to other O\*NET 
 
 | Method | Listings | Share |
 |---|---:|---:|
-| By the title | 1,231 | 91% |
+| By the title | 1,228 | 90% |
 | By the ad text (title too generic) | 70 | 5% |
-| Not classified (title and ad text both too generic) | 59 | 4% |
+| Not classified (title and ad text both too generic) | 61 | 4% |
 
 ### Where the listings were read
 
 | Source | Listings | Share |
 |---|---:|---:|
-| Greenhouse company boards | 812 | 60% |
-| Ashby company boards | 291 | 21% |
-| USAJOBS (federal) | 192 | 14% |
-| Lever company boards | 65 | 5% |
+| Greenhouse company boards | 811 | 60% |
+| Ashby company boards | 288 | 21% |
+| USAJOBS (federal) | 197 | 14% |
+| Lever company boards | 63 | 5% |
 
-Left out of the list: 49,145 postings that are not HR jobs, 172 filed under an HR department but doing other work, 499 outside the United States, 0 past their close date, and 0 duplicates.
+Left out of the list: 49,112 postings that are not HR jobs, 172 filed under an HR department but doing other work, 497 outside the United States, 0 past their close date, and 0 duplicates.
 <!-- stats:end -->
 
 ## Classifications
