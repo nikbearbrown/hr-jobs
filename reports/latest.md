@@ -1,27 +1,27 @@
-# HR jobs, 2026-11-18
+# HR jobs, 2026-11-19
 
-**1,332 open HR listings in the United States**, from 50,152 postings read. 70 are new today.
+**1,344 open HR listings in the United States**, from 50,254 postings read. 57 are new today.
 
 No ranking: listings are grouped by sub-discipline, newest first. The full list is [data/current/jobs.csv](../data/current/jobs.csv).
 
 ## Listings by sub-discipline and sector
 
-| Sub-discipline | corporate | federal | healthcare | Total |
-|---|---:|---:|---:|---:|
-| military_hr |  | 72 |  | 72 |
-| labor_relations |  | 11 |  | 11 |
-| employee_relations | 18 | 4 |  | 22 |
-| compensation | 85 | 18 |  | 103 |
-| benefits_leave | 23 | 2 |  | 25 |
-| talent_acquisition | 560 | 21 | 1 | 582 |
-| learning_od | 94 | 4 |  | 98 |
-| hris_analytics | 77 | 3 |  | 80 |
-| payroll | 39 |  |  | 39 |
-| hr_operations | 84 | 3 |  | 87 |
-| hr_strategy | 27 | 6 |  | 33 |
-| generalist | 115 |  |  | 115 |
-| unclassified | 35 | 30 |  | 65 |
-| **Total** | **1157** | **174** | **1** | **1332** |
+| Sub-discipline | corporate | federal | Total |
+|---|---:|---:|---:|
+| military_hr |  | 78 | 78 |
+| labor_relations | 1 | 9 | 10 |
+| employee_relations | 18 | 7 | 25 |
+| compensation | 87 | 17 | 104 |
+| benefits_leave | 23 | 2 | 25 |
+| talent_acquisition | 558 | 24 | 582 |
+| learning_od | 94 | 5 | 99 |
+| hris_analytics | 76 | 3 | 79 |
+| payroll | 38 |  | 38 |
+| hr_operations | 81 | 6 | 87 |
+| hr_strategy | 27 | 7 | 34 |
+| generalist | 115 |  | 115 |
+| unclassified | 36 | 32 | 68 |
+| **Total** | **1154** | **190** | **1344** |
 
 Sector is read from the source (federal) or guessed from the employer's name; everything else defaults to corporate.
 
@@ -29,123 +29,113 @@ Sector is read from the source (federal) or guessed from the employer's name; ev
 
 | Method | Listings |
 |---|---:|
-| By the title | 1196 |
-| By the ad text (title too generic) | 71 |
-| Not classified (title and ad text both too generic) | 65 |
+| By the title | 1203 |
+| By the ad text (title too generic) | 73 |
+| Not classified (title and ad text both too generic) | 68 |
 
 ## Sources read
 
 | Source | Result |
 |---|---|
 | company boards (Greenhouse, Lever, Ashby) | ok: 629 of 631 boards answered |
-| USAJOBS (series 0201, 0203) | ok: 177 postings |
+| USAJOBS (series 0201, 0203) | ok: 195 postings |
 | Adzuna (US, HR category) | no key |
 
-Left out: 48,192 postings that are not HR jobs, 144 filed under an HR department but doing other work (assistants, office staff, interns for other teams), 484 outside the United States, 0 past their close date, 0 duplicates.
+Left out: 48,285 postings that are not HR jobs, 140 filed under an HR department but doing other work (assistants, office staff, interns for other teams), 485 outside the United States, 0 past their close date, 0 duplicates.
 
 2 company boards did not answer: greenhouse/arkoselabs, lever/metlife.
 
 ## New today
 
-### military_hr (13)
+### military_hr (12)
 
-- [HUMAN RESOURCES SPECIALIST (MILITARY)](https://www.usajobs.gov:443/job/893268000), Air Force Personnel Center. Randolph AFB, TX · GS-12 · USD 90,823-118,072 per year · posted 2026-11-18 · closes 2026-11-24
-- [Supervisory HR Specialist (MILITARY)](https://www.usajobs.gov:443/job/893141500), Defense Information Systems Agency. Fort Meade, MD · GS-13 · USD 121,785-158,322 per year · posted 2026-11-18 · closes 2026-11-24
-- [Supervisory Human Resources Specialist (Military)](https://www.usajobs.gov:443/job/892975400), U.S. Army Intelligence and Security Command. Fort Belvoir, VA · GG-13 · USD 121,785-158,322 per year · posted 2026-11-18 · closes 2026-11-24
-- [Supervisory Human Resources Specialist (Military)](https://www.usajobs.gov:443/job/893162700), United States Army Installation Management Command. Fort Riley, KS · GS-11 · USD 74,678-97,087 per year · posted 2026-11-18 · closes 2026-11-23
-- [HR OFFICER (MILITARY)](https://www.usajobs.gov:443/job/893139000), Air National Guard Units. Toledo, OH · GS-12 · USD 89,508-116,362 per year · posted 2026-11-17 · closes 2026-12-04
-- [HR SPECIALIST (MILITARY)](https://www.usajobs.gov:443/job/890464400), Air National Guard Units. Kingsley Field, OR · GS-9 · USD 61,722-80,243 per year · posted 2026-11-17 · closes 2026-12-02
-- [HR SPEC (MIL)](https://www.usajobs.gov:443/job/893206000), Army National Guard Units. Indianapolis, IN · GS-9 · USD 62,297-80,991 per year · posted 2026-11-17 · closes 2026-11-22
-- [HR SPEC (MILITARY)](https://www.usajobs.gov:443/job/893139800), Army National Guard Units. Edinburgh, IN · GS-9 · USD 62,297-80,991 per year · posted 2026-11-17 · closes 2026-11-22
-- [HR SPECIALIST (MILITARY)-T32](https://www.usajobs.gov:443/job/893205200), Army National Guard Units. Madison, WI · GS-9 · USD 61,722-80,243 per year · posted 2026-11-17 · closes 2026-12-04
-- [SUPV HR SPEC (MILITARY)](https://www.usajobs.gov:443/job/893263000), Army National Guard Units. Salem, OR · GS-12 · USD 96,443-125,378 per year · posted 2026-11-17 · closes 2026-12-08
-- [Human Resources Assistant (Military/Employee Benefits)](https://www.usajobs.gov:443/job/893273300), United States Army Installation Management Command. Fort Huachuca, AZ · GS-7 · USD 51,417-66,843 per year · posted 2026-11-17 · closes 2026-11-30
-- [HR SPEC (MILITARY)](https://www.usajobs.gov:443/job/893278900), US ARMY HUMAN RESOURCES COMMAND (DRU). Fort Knox, KY · GS-12 · USD 89,508-116,362 per year · posted 2026-11-17 · closes 2026-11-29
-- [HR SPEC (MILITARY)](https://www.usajobs.gov:443/job/884609000), Air National Guard Units. Portland, OR · GS-9 · USD 66,505-86,461 per year · posted 2026-09-14 · closes 2026-12-17
+- [HR SPEC (MIL) (Title 5)](https://www.usajobs.gov:443/job/893369600), Air National Guard Units. Tulsa, OK · GS-9 · USD 61,722-80,243 per year · posted 2026-11-19 · closes 2026-12-02
+- [HUMAN RESOURCES SPECIALIST (MILITARY) (TITLE 32)](https://www.usajobs.gov:443/job/893418600), Army National Guard Units. Raleigh, NC · GS-9 · USD 64,453-83,794 per year · posted 2026-11-19 · closes 2026-12-18
+- [Human Resources Specialist (Information Systems/Military)](https://www.usajobs.gov:443/job/893183500), United States Army Installation Management Command. Fort Hood, TX · GS-11 · USD 74,678-97,087 per year · posted 2026-11-19 · closes 2026-11-23
+- [HR ASSISTANT (MILITARY) (TITLE 32)](https://www.usajobs.gov:443/job/893446600), Army National Guard Units. Albany, MO · GS-4 to GS-6 · USD 37,003-59,994 per year · posted 2026-11-18 · closes 2026-12-10
+- [HR ASSISTANT (MILITARY) (TITLE 32)](https://www.usajobs.gov:443/job/893444300), Army National Guard Units. Independence, MO · GS-4 to GS-6 · USD 37,003-59,994 per year · posted 2026-11-18 · closes 2026-12-09
+- [HR ASSISTANT (MILITARY) (TITLE 32)](https://www.usajobs.gov:443/job/893446200), Army National Guard Units. Jefferson City, MO · GS-4 to GS-6 · USD 36,409-59,031 per year · posted 2026-11-18 · closes 2026-12-10
+- [HR ASSISTANT (MILITARY) (TITLE 32)](https://www.usajobs.gov:443/job/893445500), Army National Guard Units. Chillicothe, MO · GS-4 to GS-6 · USD 36,409-59,031 per year · posted 2026-11-18 · closes 2026-12-10
+- [HR ASST (MILITARY)](https://www.usajobs.gov:443/job/893399300), Army National Guard Units. Augusta, ME · GS-7 · USD 50,460-65,599 per year · posted 2026-11-18 · closes 2026-12-08
+- [HR SPEC (MIL)](https://www.usajobs.gov:443/job/893449300), Army National Guard Units. Camp Dodge Military Reservation, IA · GS-9 · USD 62,223-80,895 per year · posted 2026-11-18 · closes 2026-12-02
+- [HUMAN RESOURCES ASSISTANT (MILITARY)](https://www.usajobs.gov:443/job/893453300), Army National Guard Units. Columbia, SC · GS-7 · USD 50,460-65,599 per year · posted 2026-11-18 · closes 2026-12-03
+- [SUPV HR SPEC (MILITARY) (Title 5)](https://www.usajobs.gov:443/job/893332200), Army National Guard Units. Camp Dodge Military Reservation, IA · GS-12 · USD 90,234-117,307 per year · posted 2026-11-18 · closes 2026-12-02
+- [Lead Human Resources Assistant (Military/Office Automation)](https://www.usajobs.gov:443/job/893319200), United States Army Installation Management Command. Fort Rucker, AL · GS-7 · USD 50,460-65,599 per year · posted 2026-11-18 · closes 2026-11-30
 
-### labor_relations (3)
+### labor_relations (2)
 
-- [LEAD HR SPECIALIST (LABOR AND EMPLOYEE RELATIONS)](https://www.usajobs.gov:443/job/892867400), Naval Air Systems Command. Patuxent River, MD · DA-5 · USD 102,415-158,322 per year · posted 2026-11-18 · closes 2026-11-24
-- [Supervisory Human Resources Specialist - Employee & Labor Relations](https://www.usajobs.gov:443/job/893281700), Veterans Health Administration. Coatesville, PA · GS-13 · USD 117,284-152,471 per year · posted 2026-11-17 · closes 2026-11-26
-- [Human Resources Specialist (ER-LR)](https://www.usajobs.gov:443/job/891153400), Federal Railroad Administration. Washington, DC · GS-14 · USD 143,913-187,093 per year · posted 2026-11-02 · closes 2026-12-16
+- [LEAD HR SPECIALIST (EMPLOYEE & LABOR RELATIONS)](https://www.usajobs.gov:443/job/893473200), United States Fleet Forces Command. Kittery, ME · GS-13 · USD 120,548-156,715 per year · posted 2026-11-19 · closes 2026-11-25
+- [Director Labor Relations](https://job-boards.greenhouse.io/hasbro/jobs/4487043009), Hasbro. Renton, WA · posted 2026-11-18
 
-### compensation (8)
+### employee_relations (4)
 
-- [Compensation Analyst](https://jobs.ashbyhq.com/appfolio/ccbad502-6b54-4d32-b752-c477c5b9b826), AppFolio. San Diego, CA (hybrid) · USD 77,600-97,000 per year · posted 2026-11-17
-- [Senior Global Compensation Consultant](https://job-boards.greenhouse.io/braze/jobs/8397315), Braze. San Francisco, CA · senior · posted 2026-11-17
-- [Senior Global Compensation Consultant](https://job-boards.greenhouse.io/braze/jobs/8397325), Braze. Austin, TX · senior · posted 2026-11-17
-- [Senior Global Compensation Consultant](https://job-boards.greenhouse.io/braze/jobs/8397318), Braze. Chicago, IL · senior · posted 2026-11-17
-- [Equity Administrator II](https://www.pinterestcareers.com/jobs/?gh_jid=8331360), Pinterest. San Francisco, CA (remote) · II · posted 2026-11-17
-- [Head of Compensation and Benefits](https://www.usajobs.gov:443/job/893160100), Social Security Administration. Woodlawn, MD · ES-00 · USD 151,661-228,000 per year · posted 2026-11-17 · closes 2026-12-01
-- [Director, Total Rewards](https://boards.greenhouse.io/justworks/jobs/8334093?gh_jid=8334093), Justworks. New York, NY · posted 2026-11-13
-- [Head of Total Rewards](https://job-boards.greenhouse.io/apolloio/jobs/6226217004), Apollo.io. San Francisco, CA (hybrid) · posted 2026-10-15
+- [Supervisory Human Resources Specialist (Employee Relations)](https://www.usajobs.gov:443/job/893419300), Immigration and Customs Enforcement. Washington, DC · GS-14 · USD 136,736-187,093 per year · posted 2026-11-18 · closes 2026-11-25
+- [Supervisory Human Resources Specialist](https://www.usajobs.gov:443/job/893400500), Transportation Security Administration. Hebron, KY · SV-I · USD 110,865-144,126 per year · posted 2026-11-18 · closes 2026-11-24
+- [Senior Manager, Employee Relations & Performance](https://careers.toasttab.com/jobs?gh_jid=8371628), Toast. Remote - US (remote) · senior · posted 2026-11-11
+- [VCS - Supervisory Human Resources Specialist - Employee Relations](https://www.usajobs.gov:443/job/893371000), Veterans Health Administration. Saint Louis, MO · VC-17 · USD 109,138 per year · posted 2026-11-11 · closes 2026-11-27
 
-### benefits_leave (3)
+### compensation (4)
 
-- [Benefits Manager](https://jobs.ashbyhq.com/appfolio/8b35621f-d0de-4481-80dd-a64169922705), AppFolio. San Diego, CA (hybrid) · USD 115,000-143,000 per year · posted 2026-11-18
-- [Global Benefits Lead](https://job-boards.greenhouse.io/appian/jobs/8396993), Appian. New York, NY · lead · posted 2026-11-17
-- [International People Ops Analyst, Benefits](https://cribl.io/job-detail/?gh_jid=6261584004), Cribl. Remote - United States (remote) · posted 2026-11-17
+- [HUMAN RESOURCES SPECIALIST (CLASSIFICATION)](https://www.usajobs.gov:443/job/893441500), Navy Reserve Force. Naval Base, VA · GS-13 · USD 108,019-140,426 per year · posted 2026-11-19 · closes 2026-11-24
+- [HUMAN RESOURCES SPECIALIST (CLASSIFICATION)](https://www.usajobs.gov:443/job/893364100), Air Force Personnel Center. Randolph AFB, TX · GS-13 · USD 108,001-140,403 per year · posted 2026-11-18 · closes 2026-11-24
+- [Staff Compensation Analyst](https://job-boards.greenhouse.io/mozilla/jobs/8397167), Mozilla. Remote US (remote) · lead · posted 2026-11-18
+- [Staff Compensation Analyst](https://job-boards.greenhouse.io/mozilla/jobs/8394391), Mozilla. Remote (remote) · lead · posted 2026-11-18
 
-### talent_acquisition (17)
+### benefits_leave (2)
 
-- [Human Resources Specialist (Recruitment and Placement)](https://www.usajobs.gov:443/job/893275100), Immigration and Customs Enforcement. Washington, DC · GS-9 to GS-12 · USD 67,100-133,142 per year · posted 2026-11-18 · closes 2026-12-04
-- [HR SPEC (RECRUITMENT & PLACEMENT)](https://www.usajobs.gov:443/job/893265900), US Army Civilian Human Resources Agency. Mobile, AL · GS-7 · USD 50,460-65,599 per year · posted 2026-11-18 · closes 2026-11-23
-- [Supervisory Human Resources Specialist (Recruitment & Placement)](https://www.usajobs.gov:443/job/893189200), Air Force Personnel Center. Randolph AFB, TX · GS-14 · USD 127,624-165,917 per year · posted 2026-11-17 · closes 2026-12-08
-- [Senior Corporate Recruiter](https://boards.greenhouse.io/andurilindustries/jobs/5298878007?gh_jid=5298878007), Anduril. Seattle, WA · senior · posted 2026-11-17
-- [Senior Corporate Recruiter](https://boards.greenhouse.io/andurilindustries/jobs/5298882007?gh_jid=5298882007), Anduril. Boston, MA · senior · posted 2026-11-17
-- [Senior Corporate Recruiter](https://boards.greenhouse.io/andurilindustries/jobs/5298874007?gh_jid=5298874007), Anduril. Washington, DC · senior · posted 2026-11-17
-- [Senior Corporate Recruiter](https://boards.greenhouse.io/andurilindustries/jobs/5298761007?gh_jid=5298761007), Anduril. Costa Mesa, CA · senior · posted 2026-11-17
-- [Senior Recruiting Manager](https://boards.greenhouse.io/andurilindustries/jobs/5294911007?gh_jid=5294911007), Anduril. Costa Mesa, CA · senior · posted 2026-11-17
-- [Recruiting Operations Consultant, Managed Services](https://job-boards.greenhouse.io/greenhouse/jobs/8352771?gh_jid=8352771), Greenhouse Software. Anywhere in the United States (remote) · posted 2026-11-17
-- [Lead Business Recruiter](https://ripple.com/careers/all-jobs/job/8381695?gh_jid=8381695), Ripple. New York, NY · lead · posted 2026-11-17
-- [Sales recruiter (Contract)](https://jobs.ashbyhq.com/WRITER/b475f5b7-a363-4595-a329-a4c666eed2ee), Writer. San Francisco, CA (hybrid) · USD 89.00-105.00 per hour · posted 2026-11-17
-- [Recruiting Coordinator](https://jobs.lever.co/zoox/dcd6b906-b64b-4806-a81f-eedf1279459c), Zoox. Foster City, CA (hybrid) · USD 39.00-50.00 per hour · posted 2026-11-17
-- [Technical Recruiter: Security](https://jobs.ashbyhq.com/ThinkingMachines/fa72912b-78b7-40ae-8a54-c2a524675f2c), Thinking Machines Lab. San Francisco, CA (onsite) · posted 2026-11-05
-- [Early Careers Recruiting Coordinator](https://coreweave.com/careers/job?4726581006&board=coreweave&gh_jid=4726581006), CoreWeave. Livingston, NJ · posted 2026-11-03
-- [Senior Recruiter](https://jobs.ashbyhq.com/dave/45bed146-7a78-49c1-a3c4-ce52ec66aeb2), Dave. United States (remote) · senior · USD 150,000-180,000 per year · posted 2026-11-03
-- [Talent Acquisition Coordinator (Contract)](https://job-boards.greenhouse.io/tailscale/jobs/4730743005), Tailscale. Remote (Canada) (remote) · posted 2026-09-03
-- [Talent Acquisition Coordinator (Contract)](https://job-boards.greenhouse.io/tailscale/jobs/4730786005), Tailscale. Remote (United States) (remote) · posted 2026-09-03
+- [HUMAN RESOURCES SPECIALIST (EMPLOYEE BENEFITS) (TITLE 32)](https://www.usajobs.gov:443/job/893420100), Army National Guard Units. Raleigh, NC · GS-9 · USD 64,453-83,794 per year · posted 2026-11-19 · closes 2026-12-18
+- [Senior Manager, Payroll and Benefits](https://jobs.ashbyhq.com/virtahealth/3781b65b-efb3-42fe-ab33-e50b5f5f4834), Virta Health. USA (remote) · senior · USD 129,000-166,500 per year · posted 2026-11-18
 
-### learning_od (10)
+### talent_acquisition (13)
 
-- [Supervisory Human Resources Specialist  (Human Resources Development)](https://www.usajobs.gov:443/job/893266600), Bonneville Power Administration. Portland, OR · GS-14 · USD 135,522-176,183 per year · posted 2026-11-18 · closes 2026-11-27
-- [Human Resources Specialist (HR Development)](https://www.usajobs.gov:443/job/893180800), Internal Revenue Service. Anchorage, AK · GS-14 · USD 125,776-197,200 per year · posted 2026-11-18 · closes 2026-11-24
-- [Trainer, Tactical Effects](https://boards.greenhouse.io/andurilindustries/jobs/5291766007?gh_jid=5291766007), Anduril. Costa Mesa, CA · posted 2026-11-17
-- [Organizational Development Partner](https://www.carvana.com/careers/apply?gh_jid=8397003), Carvana. Tempe, AZ · posted 2026-11-17
-- [People Team Intern, EMEA Employment Compliance & Manager Enablement (Spring 2027)](https://boards.greenhouse.io/cloudflare/jobs/8383449?gh_jid=8383449), Cloudflare. In-Office · intern · posted 2026-11-17
-- [People Project Coordinator](https://app.careerpuck.com/job-board/lyft/job/8948519002?gh_jid=8948519002), Lyft. Nashville, TN · posted 2026-11-17
-- [Training Lead, Autonomous Vehicle Technician Operations](https://app.careerpuck.com/job-board/lyft/job/8948514002?gh_jid=8948514002), Lyft. Nashville, TN · lead · posted 2026-11-17
-- [Fleet Development & Readiness (FD&R) Training Program Manager](https://careers.withwaymo.com/jobs?gh_jid=8396592), Waymo. San Francisco, CA · posted 2026-11-17
-- [CDD KYC Knowledge & Training manager](https://job-boards.greenhouse.io/adyen/jobs/8207694), Adyen. Chicago, IL · posted 2026-10-30
-- [Senior L&D Specialist](https://job-boards.greenhouse.io/gusto/jobs/8128422), Gusto. Atlanta, GA (hybrid) · senior · posted 2026-09-04
+- [HUMAN RESOURCES SPECIALIST (RECRUITMENT & PLACEMENT)](https://www.usajobs.gov:443/job/893226200), Naval Education and Training Command. Naval Air Station Pensacola, FL · GS-12 · USD 89,508-116,362 per year · posted 2026-11-19 · closes 2026-11-25
+- [Senior Technical Sourcer](https://jobs.ashbyhq.com/Abridge/7003bb48-1158-43ec-9c7d-2d2d437e88d5), Abridge. San Francisco, CA (hybrid) · senior · USD 156,000-180,000 per year · posted 2026-11-18
+- [Senior Employer Brand Program Manager, Events and Partnerships](https://job-boards.greenhouse.io/adyen/jobs/8397314), Adyen. Chicago, IL · senior · posted 2026-11-18
+- [HUMAN RESOURCES SPECIALIST (RECRUITMENT AND PLACEMENT)-DIRECT HIRE AUTHORITY](https://www.usajobs.gov:443/job/893433900), Air Force Materiel Command. Robins AFB, GA · NH-2 to NH-3 · USD 40,736-138,370 per year · posted 2026-11-18 · closes 2027-03-18
+- [Recruiting Coordinator (Contractor)](https://boards.greenhouse.io/andurilindustries/jobs/5301054007?gh_jid=5301054007), Anduril. Boulder, CO · posted 2026-11-18
+- [Principal Talent Acquisition Partner (GTM)](https://job-boards.greenhouse.io/commercetools/jobs/8208123003), commercetools. Boston, MA (hybrid) · principal · posted 2026-11-18
+- [Human Resources Specialist (Recruitment & Placement)](https://www.usajobs.gov:443/job/893432400), Defense Logistics Agency. Whitehall, OH · GS-7 · USD 52,654-68,452 per year · posted 2026-11-18 · closes 2026-11-25
+- [Senior Technical Recruiter](https://careers.formlabs.com/job/8400630/apply/?gh_jid=8400630), Formlabs. Somerville, MA · senior · posted 2026-11-18
+- [Senior Recruiter, Public Sector GTM](https://job-boards.greenhouse.io/gitlab/jobs/8945990002), GitLab. Remote, United States (remote) · senior · posted 2026-11-18
+- [Recruiting Coordinator (Bastrop)](https://boards.greenhouse.io/spacex/jobs/8949490002?gh_jid=8949490002), SpaceX. Bastrop, TX · posted 2026-11-18
+- [Recruiting Coordinator (Hawthorne)](https://boards.greenhouse.io/spacex/jobs/8949469002?gh_jid=8949469002), SpaceX. Hawthorne, CA · posted 2026-11-18
+- [Senior Employer Brand Program Manager, Events and Partnerships](https://job-boards.greenhouse.io/adyen/jobs/8049101), Adyen. San Francisco, CA · senior · posted 2026-07-15
+- [Executive Assistant, People](https://boards.greenhouse.io/figma/jobs/5969046004?gh_jid=5969046004), Figma. San Francisco, CA · posted 2026-04-15
+
+### learning_od (5)
+
+- [Director, Civilian Policy and Management, HQSF/S1C](https://www.usajobs.gov:443/job/891727500), Office of Chief of Space Operations. Pentagon, VA · NH-4 · USD 143,913-197,200 per year · posted 2026-11-18 · closes 2026-11-27
+- [Learning & Development Manager, Manufacturing & Trades](https://jobs.ashbyhq.com/saronic/6bef57ce-d52c-40ef-bd75-3982a9ac5a7a), Saronic. Austin, TX (onsite) · posted 2026-11-18
+- [Technical Trainer, Starlink Satellite Production](https://boards.greenhouse.io/spacex/jobs/8949196002?gh_jid=8949196002), SpaceX. Redmond, WA · posted 2026-11-18
+- [Service Operations Trainer (Automotive Aftersales)](https://lucidmotors.com/careers/search/5206328007?gh_jid=5206328007), Lucid Motors. Fremont, CA · posted 2026-08-07
+- [Learning Partner, Data Center Operations](https://coreweave.com/careers/job?4689900006&board=coreweave&gh_jid=4689900006), CoreWeave. Dallas, TX · posted 2026-06-18
 
 ### hris_analytics (2)
 
-- [Senior Analyst, People Analytics (Temporary Assignment)](https://job-boards.greenhouse.io/hasbro/jobs/4511241009), Hasbro. Boston, MA · senior · posted 2026-11-17
-- [People Operations Program Manager – People Systems & Process Design](https://careers.withwaymo.com/jobs?gh_jid=8084419), Waymo. Mountain View, CA · posted 2026-07-27
+- [Senior Manager, AI Transformation (HR & Operations)](https://jobs.ashbyhq.com/1password/a835fee8-dc26-44de-87bd-39e081291857), 1Password. Remote (United States | Canada) (remote) · senior · posted 2026-11-18
+- [Senior People Systems Engineer](https://www.fivetran.com/careers/job?gh_jid=8204090003), Fivetran. Oakland, CA · senior · posted 2026-11-18
 
-### hr_operations (3)
+### hr_operations (4)
 
-- [People Operations Coordinator](https://jobs.ashbyhq.com/circle/467e3ee3-2620-4f4b-8d60-bc5e8c15fe45), Circle. United States (remote) · USD 85,000 per year · posted 2026-11-17
-- [Director, People Operations Solutions](https://jobs.ashbyhq.com/Crusoe/87cd399c-ad52-4dfd-b596-0180cc5cff39), Crusoe. Denver, CO (onsite) · posted 2026-11-17
-- [HUMAN RESOURCES ASSISTANT](https://www.usajobs.gov:443/job/893270300), Headquarters, Air Force Reserve Command. Eglin AFB, FL · GS-7 · USD 50,460-65,599 per year · posted 2026-11-17 · closes 2026-11-24
+- [Senior Program Manager, People Operations](https://boards.greenhouse.io/andurilindustries/jobs/5301236007?gh_jid=5301236007), Anduril. Costa Mesa, CA · senior · posted 2026-11-18
+- [HUMAN RESOURCES ASSISTANT](https://www.usajobs.gov:443/job/893495900), U.S. Air Force Academy. Air Force Academy, CO · NF-2 · USD 20.80 per hour · posted 2026-11-18 · closes 2026-11-23
+- [HUMAN RESOURCES ASSISTANT](https://www.usajobs.gov:443/job/893496000), U.S. Air Force Academy. Air Force Academy, CO · NF-3 · USD 23.00 per hour · posted 2026-11-18 · closes 2026-11-23
+- [Human Resources Assistant](https://www.usajobs.gov:443/job/893314600), U.S. Coast Guard. Washington, DC · GS-6 to GS-7 · USD 51,957-75,059 per year · posted 2026-11-18 · closes 2026-11-28
 
-### hr_strategy (1)
+### hr_strategy (2)
 
-- [ASSISTANT HUMAN RESOURCES OFFICER](https://www.usajobs.gov:443/job/893259900), Naval Supply Systems Command. Naval Support Activity, PA · GS-14 · USD 128,323-166,825 per year · posted 2026-11-11 · closes 2026-11-18
+- [HR Policy & Accountability Specialist](https://www.usajobs.gov:443/job/893466300), Development Finance Corporation. Washington, DC · GS-14 · USD 143,913-187,093 per year · posted 2026-11-18 · closes 2026-12-04
+- [Assistant Human Resources Officer (SSBP) (Detail/Temp Promo NTE 120 days)](https://www.usajobs.gov:443/job/893464400), Veterans Health Administration. Orlando, FL · GS-14 · USD 125,776-163,514 per year · posted 2026-11-18 · closes 2026-11-23
 
-### generalist (5)
+### generalist (2)
 
-- [People Project Manager](https://app.careerpuck.com/job-board/lyft/job/8948517002?gh_jid=8948517002), Lyft. Nashville, TN · posted 2026-11-17
-- [HRBP, Tech](https://jobs.ashbyhq.com/openai/5b001c0f-c29c-49e7-92d0-5b63dffb191d), OpenAI. San Francisco, CA (hybrid) · USD 200,000-260,000 per year · posted 2026-11-17
-- [Lead HRBP, GTM](https://jobs.ashbyhq.com/openai/2928f960-8f97-4bb6-aafd-3ffbe70d5ea8), OpenAI. San Francisco, CA (hybrid) · lead · USD 273,000-320,000 per year · posted 2026-11-17
-- [Senior Manager, HR Business Partner](https://ripple.com/careers/all-jobs/job/8396624?gh_jid=8396624), Ripple. New York, NY · senior · posted 2026-11-17
-- [People Partner Specialist](https://www.okta.com/company/careers/opportunity/8331368?gh_jid=8331368), Okta. Washington, DC · posted 2026-10-28
+- [People Partner GTM](https://jobs.ashbyhq.com/ElevenLabs/00686b87-a6e2-4fbc-9dd5-b3b35ad02638), ElevenLabs. New York City, NY (remote) · posted 2026-11-18
+- [Human Resources Manager (Temporary Assignment)](https://job-boards.greenhouse.io/hasbro/jobs/4512443009), Hasbro. Boston, MA · posted 2026-11-18
 
 ### unclassified (5)
 
-- [Human Resources Specialist](https://www.usajobs.gov:443/job/893232000), Executive Office for U.S. Attorneys and the Office of the U.S. Attorneys. Washington, DC · GS-12 to GS-13 · USD 102,415-158,322 per year · posted 2026-11-18 · closes 2026-12-02
-- [Human Resources Specialist](https://www.usajobs.gov:443/job/893162100), Air Force Civilian Career Training. Little Rock AFB, AR · GS-7 · USD 50,460-111,087 per year · posted 2026-11-17 · closes 2027-09-30
-- [Product Counsel - HR Products](https://job-boards.greenhouse.io/gusto/jobs/8274972), Gusto. Denver, CO (hybrid) · posted 2026-11-17
-- [Senior Product Counsel - HR Products](https://job-boards.greenhouse.io/gusto/jobs/8260696), Gusto. Denver, CO (hybrid) · senior · posted 2026-11-17
-- [Director, Human Development Di](https://www.usajobs.gov:443/job/893240600), National Geospatial-Intelligence Agency. Springfield, VA · IE-03 · USD 151,661-228,000 per year · posted 2026-11-10 · closes 2026-12-10
+- [Human Resources Specialist (NAF), NF-05](https://www.usajobs.gov:443/job/893380400), Defense Human Resources Activity. Alexandria, VA · NF-5 · USD 120,000-140,000 per year · posted 2026-11-19 · closes 2026-12-03
+- [Human Resources Specialist](https://www.usajobs.gov:443/job/893326200), Office of the Secretary of the Army. Pentagon, VA · GS-13 · USD 121,785-158,322 per year · posted 2026-11-19 · closes 2026-11-25
+- [Chief Learning Officer](https://www.usajobs.gov:443/job/893465100), Development Finance Corporation. Washington, DC · GS-15 · USD 169,279-197,200 per year · posted 2026-11-18 · closes 2026-12-04
+- [People Services Specialist](https://job-boards.greenhouse.io/gusto/jobs/8329666), Gusto. Denver, CO (hybrid) · posted 2026-11-18
+- [Human Resources Specialist](https://www.usajobs.gov:443/job/893409500), Small Business Administration. Denver, CO · GS-13 · USD 118,154-158,322 per year · posted 2026-11-18 · closes 2026-11-24

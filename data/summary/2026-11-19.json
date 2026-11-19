@@ -1,0 +1,104 @@
+{
+ "date": "2026-11-19",
+ "total": 1344,
+ "new_today": 57,
+ "baseline_run": false,
+ "by_sub_discipline": {
+  "military_hr": 78,
+  "labor_relations": 10,
+  "employee_relations": 25,
+  "compensation": 104,
+  "benefits_leave": 25,
+  "talent_acquisition": 582,
+  "learning_od": 99,
+  "hris_analytics": 79,
+  "payroll": 38,
+  "hr_operations": 87,
+  "hr_strategy": 34,
+  "generalist": 115,
+  "unclassified": 68
+ },
+ "by_sector": {
+  "corporate": 1154,
+  "federal": 190
+ },
+ "by_source": {
+  "greenhouse": 819,
+  "ashby": 289,
+  "usajobs": 190,
+  "lever": 46
+ },
+ "classified_by": {
+  "title": 1203,
+  "description": 73,
+  "none": 68
+ },
+ "sub_discipline_by_sector": {
+  "military_hr": {
+   "federal": 78
+  },
+  "labor_relations": {
+   "federal": 9,
+   "corporate": 1
+  },
+  "employee_relations": {
+   "federal": 7,
+   "corporate": 18
+  },
+  "compensation": {
+   "federal": 17,
+   "corporate": 87
+  },
+  "benefits_leave": {
+   "federal": 2,
+   "corporate": 23
+  },
+  "talent_acquisition": {
+   "federal": 24,
+   "corporate": 558
+  },
+  "learning_od": {
+   "federal": 5,
+   "corporate": 94
+  },
+  "hris_analytics": {
+   "corporate": 76,
+   "federal": 3
+  },
+  "payroll": {
+   "corporate": 38
+  },
+  "hr_operations": {
+   "corporate": 81,
+   "federal": 6
+  },
+  "hr_strategy": {
+   "federal": 7,
+   "corporate": 27
+  },
+  "generalist": {
+   "corporate": 115
+  },
+  "unclassified": {
+   "federal": 32,
+   "corporate": 36
+  }
+ },
+ "postings_read": 50254,
+ "dropped": {
+  "not_hr": 48285,
+  "hr_department_other_work": 140,
+  "outside_us": 485,
+  "duplicate": 0
+ },
+ "sources": {
+  "company boards (Greenhouse, Lever, Ashby)": "ok: 629 of 631 boards answered",
+  "USAJOBS (series 0201, 0203)": "ok: 195 postings",
+  "Adzuna (US, HR category)": "no key"
+ },
+ "carried_forward": 0,
+ "boards_failed": [
+  "greenhouse/arkoselabs",
+  "lever/metlife"
+ ]
+}
