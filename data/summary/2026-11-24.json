@@ -1,0 +1,109 @@
+{
+ "date": "2026-11-24",
+ "total": 1359,
+ "new_today": 47,
+ "baseline_run": false,
+ "by_sub_discipline": {
+  "military_hr": 73,
+  "labor_relations": 13,
+  "employee_relations": 26,
+  "compensation": 101,
+  "benefits_leave": 32,
+  "talent_acquisition": 592,
+  "learning_od": 100,
+  "hris_analytics": 86,
+  "payroll": 34,
+  "hr_operations": 91,
+  "hr_strategy": 34,
+  "generalist": 118,
+  "unclassified": 59
+ },
+ "by_sector": {
+  "corporate": 1173,
+  "federal": 185,
+  "healthcare": 1
+ },
+ "by_source": {
+  "greenhouse": 840,
+  "ashby": 287,
+  "usajobs": 185,
+  "lever": 47
+ },
+ "classified_by": {
+  "title": 1222,
+  "description": 78,
+  "none": 59
+ },
+ "sub_discipline_by_sector": {
+  "military_hr": {
+   "federal": 73
+  },
+  "labor_relations": {
+   "federal": 12,
+   "corporate": 1
+  },
+  "employee_relations": {
+   "federal": 8,
+   "corporate": 18
+  },
+  "compensation": {
+   "federal": 13,
+   "corporate": 88
+  },
+  "benefits_leave": {
+   "federal": 5,
+   "corporate": 27
+  },
+  "talent_acquisition": {
+   "corporate": 575,
+   "federal": 16,
+   "healthcare": 1
+  },
+  "learning_od": {
+   "corporate": 94,
+   "federal": 6
+  },
+  "hris_analytics": {
+   "federal": 5,
+   "corporate": 81
+  },
+  "payroll": {
+   "federal": 1,
+   "corporate": 33
+  },
+  "hr_operations": {
+   "federal": 8,
+   "corporate": 83
+  },
+  "hr_strategy": {
+   "corporate": 27,
+   "federal": 7
+  },
+  "generalist": {
+   "corporate": 116,
+   "federal": 2
+  },
+  "unclassified": {
+   "federal": 29,
+   "corporate": 30
+  }
+ },
+ "postings_read": 50043,
+ "dropped": {
+  "not_hr": 48056,
+  "hr_department_other_work": 139,
+  "outside_us": 489,
+  "duplicate": 0
+ },
+ "sources": {
+  "company boards (Greenhouse, Lever, Ashby)": "ok: 628 of 631 boards answered",
+  "USAJOBS (series 0201, 0203)": "ok: 192 postings",
+  "Adzuna (US, HR category)": "no key"
+ },
+ "carried_forward": 0,
+ "boards_failed": [
+  "ashby/bain-capital",
+  "greenhouse/arkoselabs",
+  "lever/metlife"
+ ]
+}
