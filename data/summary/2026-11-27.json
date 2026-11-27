@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-27",
+ "total": 1359,
+ "new_today": 9,
+ "baseline_run": false,
+ "by_sub_discipline": {
+  "military_hr": 72,
+  "labor_relations": 9,
+  "employee_relations": 24,
+  "compensation": 108,
+  "benefits_leave": 35,
+  "talent_acquisition": 569,
+  "learning_od": 104,
+  "hris_analytics": 93,
+  "payroll": 33,
+  "hr_operations": 98,
+  "hr_strategy": 32,
+  "generalist": 117,
+  "unclassified": 65
+ },
+ "by_sector": {
+  "corporate": 1161,
+  "federal": 197,
+  "healthcare": 1
+ },
+ "by_source": {
+  "greenhouse": 832,
+  "ashby": 283,
+  "usajobs": 197,
+  "lever": 47
+ },
+ "classified_by": {
+  "title": 1215,
+  "description": 79,
+  "none": 65
+ },
+ "sub_discipline_by_sector": {
+  "military_hr": {
+   "federal": 72
+  },
+  "labor_relations": {
+   "federal": 8,
+   "corporate": 1
+  },
+  "employee_relations": {
+   "federal": 7,
+   "corporate": 17
+  },
+  "compensation": {
+   "federal": 15,
+   "corporate": 93
+  },
+  "benefits_leave": {
+   "federal": 8,
+   "corporate": 27
+  },
+  "talent_acquisition": {
+   "federal": 16,
+   "corporate": 552,
+   "healthcare": 1
+  },
+  "learning_od": {
+   "corporate": 98,
+   "federal": 6
+  },
+  "hris_analytics": {
+   "corporate": 86,
+   "federal": 7
+  },
+  "payroll": {
+   "corporate": 32,
+   "federal": 1
+  },
+  "hr_operations": {
+   "federal": 15,
+   "corporate": 83
+  },
+  "hr_strategy": {
+   "federal": 6,
+   "corporate": 26
+  },
+  "generalist": {
+   "corporate": 115,
+   "federal": 2
+  },
+  "unclassified": {
+   "federal": 34,
+   "corporate": 31
+  }
+ },
+ "postings_read": 49957,
+ "dropped": {
+  "not_hr": 47972,
+  "hr_department_other_work": 133,
+  "outside_us": 493,
+  "duplicate": 0
+ },
+ "sources": {
+  "company boards (Greenhouse, Lever, Ashby)": "ok: 627 of 631 boards answered",
+  "USAJOBS (series 0201, 0203)": "ok: 201 postings",
+  "Adzuna (US, HR category)": "no key"
+ },
+ "carried_forward": 0,
+ "boards_failed": [
+  "ashby/bain-capital",
+  "greenhouse/arkoselabs",
+  "greenhouse/thoughtworks",
+  "lever/metlife"
+ ]
+}
