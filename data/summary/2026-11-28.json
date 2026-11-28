@@ -1,0 +1,109 @@
+{
+ "date": "2026-11-28",
+ "total": 1344,
+ "new_today": 2,
+ "baseline_run": false,
+ "by_sub_discipline": {
+  "military_hr": 70,
+  "labor_relations": 7,
+  "employee_relations": 22,
+  "compensation": 107,
+  "benefits_leave": 35,
+  "talent_acquisition": 567,
+  "learning_od": 100,
+  "hris_analytics": 93,
+  "payroll": 32,
+  "hr_operations": 97,
+  "hr_strategy": 32,
+  "generalist": 117,
+  "unclassified": 65
+ },
+ "by_sector": {
+  "corporate": 1160,
+  "federal": 183,
+  "healthcare": 1
+ },
+ "by_source": {
+  "greenhouse": 830,
+  "ashby": 284,
+  "usajobs": 183,
+  "lever": 47
+ },
+ "classified_by": {
+  "title": 1206,
+  "description": 73,
+  "none": 65
+ },
+ "sub_discipline_by_sector": {
+  "military_hr": {
+   "federal": 70
+  },
+  "labor_relations": {
+   "federal": 6,
+   "corporate": 1
+  },
+  "employee_relations": {
+   "federal": 5,
+   "corporate": 17
+  },
+  "compensation": {
+   "federal": 15,
+   "corporate": 92
+  },
+  "benefits_leave": {
+   "federal": 8,
+   "corporate": 27
+  },
+  "talent_acquisition": {
+   "federal": 13,
+   "corporate": 553,
+   "healthcare": 1
+  },
+  "learning_od": {
+   "corporate": 97,
+   "federal": 3
+  },
+  "hris_analytics": {
+   "corporate": 86,
+   "federal": 7
+  },
+  "payroll": {
+   "corporate": 32
+  },
+  "hr_operations": {
+   "federal": 14,
+   "corporate": 83
+  },
+  "hr_strategy": {
+   "federal": 6,
+   "corporate": 26
+  },
+  "generalist": {
+   "corporate": 115,
+   "federal": 2
+  },
+  "unclassified": {
+   "federal": 34,
+   "corporate": 31
+  }
+ },
+ "postings_read": 49932,
+ "dropped": {
+  "not_hr": 47968,
+  "hr_department_other_work": 132,
+  "outside_us": 488,
+  "duplicate": 0
+ },
+ "sources": {
+  "company boards (Greenhouse, Lever, Ashby)": "ok: 627 of 631 boards answered",
+  "USAJOBS (series 0201, 0203)": "ok: 186 postings",
+  "Adzuna (US, HR category)": "no key"
+ },
+ "carried_forward": 0,
+ "boards_failed": [
+  "ashby/bain-capital",
+  "greenhouse/arkoselabs",
+  "greenhouse/thoughtworks",
+  "lever/metlife"
+ ]
+}
